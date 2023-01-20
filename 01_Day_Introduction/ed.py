@@ -16,3 +16,5 @@ squared_legs_sum = leg1 ** 2 + leg2 ** 2
 eu_distance = math.sqrt(squared_legs_sum)
 
 print ("Euq dist: " + str(eu_distance))
+
+# Foo
