@@ -13,7 +13,7 @@
 #Declare a variable is_light_on and assign a value to it
 #Declare multiple variable on one line
 
-# Day: 30 Days of python programming
+# Day 2: 30 Days of python programming
 firstname = "Matt"
 lastname = "Trimboli"
 fullname = firstname + " " + lastname
@@ -32,7 +32,7 @@ print(type(fullname))
 print(type(country))
 print(type(city))
 print(type(age))
-print(type(year)
+print(type(year))
 print(type(is_married))
 print(type(is_true))
 print(type(is_light_on))
@@ -56,4 +56,34 @@ print(type(street))
 # Take radius as user input and calculate the area.
 # Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
 # Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
+
+print ("First name " + firstname + " is " + str(len(firstname)) + " characters long.")
+if len(firstname) > len(lastname):
+    print ("First name is longer")
+elif len(lastname) > len(firstname):
+    print ("Last name is longer")
+elif len(lastname) == len(firstname):
+    print ("First name and last name are equal")
+
+
+num_one = 5
+num_two = 4
+total = num_one + num_two
+diff = num_one - num_two
+division = num_one / num_two
+remainder = num_two % num_one
+exp = num_one ^ num_two
+floor_division = num_one // num_two
+radius = 30
+area_of_circle = 3.14 * int(radius) ** 2.0
+circum_of_circle = 2 * 3.14 * radius
+radius = input ("radius: " )
+area_of_circle = 3.14 * int(radius) ** 2
+print ("area: " + str(area_of_circle))
+firstname = input("first name: " )
+lastname = input("last name: " )
+country = input("country: " )
+age = input("age: " )
+
+
 
